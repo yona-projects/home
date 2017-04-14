@@ -8,41 +8,114 @@
     <meta content="Yona! - 21세기 SW 협업 개발 환경" name="twitter:description" />
     <meta name="description" content="Yona! - 21세기 SW 협업 개발 환경">
     <link rel="shortcut icon" type="image/png" href="/favicon.ico">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css" rel="stylesheet" integrity="sha384-awusxf8AUojygHf2+joICySzB780jVvQaVCAt1clU3QsyAitLGul28Qxb2r1e5g+" crossorigin="anonymous">
+    <link href="https://bootswatch.com/assets/css/custom.min.css" rel="stylesheet">
+    <style>
+    h1#title {
+    display: inline;
+    }
+
+    span.sup_logo {
+      background-image: url('http://yona.io/images/lollipop2.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      font-size: 3em;
+      vertical-align: super;
+    }
+    </style>
+
     <title>Yona! - 21세기 SW 협업 개발 환경</title>
 </head>
 <body>
-  <div class="jumbotron">
-    <div class="row">
-      <div class="col-sm-4"><img src='images/lollipop2.png' style="max-height:25em;" class="img-responsive"></div>
-      <div class="col-sm-8">
-        <h1>Yona - 21세기 SW 협업 개발 환경</h1>
-        <div class="btn-group" role="group" style="margin-left: auto; margin-right: auto;">
-          <a class="btn btn-primary btn-lg" href="https://repo.yona.io/yona-projects/yona" role="button" target='_blank'>데모</a>
-          <a href='https://github.com/yona-projects/yona/releases' target='_blank' type="button" class="btn btn-primary btn-lg" role="button" title='누른다고 바로 다운로드 되는거 아니니까 긴장푸시고 맘 편히 클릭하셔요'>다운로드</a>
-          <a href='https://github.com/yona-projects/yona' target='_blank' type="button" class="btn btn-primary btn-lg" role="button">소스 코드</a>
-          <a href='https://github.com/yona-projects/yona/blob/next/AUTHORS' target='_blank' type="button" class="btn btn-primary btn-lg" role="button">개발자들</a>
-          <a href="https://github.com/yona-projects/yona/blob/next/LICENSE" target="_blank" type="button" class="btn btn-primary btn-lg" role="button">라이센스</a>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="../" class="navbar-brand">YONA</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+            <!--<li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">데모 <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li><a href="../default/">Default</a></li>
+                <li class="divider"></li>
+                <li><a href="../cerulean/">Cerulean</a></li>
+              </ul>
+            </li>-->
+            <li>
+              <a href="https://repo.yona.io/yona-projects/yona" target='_blank'>데모</a>
+            </li>
+            <li>
+              <a href="https://github.com/yona-projects/yona/releases" title='누른다고 바로 다운로드 되는거 아니니까 긴장푸시고 맘 편히 클릭하셔요' target='_blank'>다운로드</a>
+            </li>
+            <li>
+              <a href="https://github.com/yona-projects/yona" target='_blank'>소스코드</a>
+            </li>
+              <li>
+              <a href="https://github.com/yona-projects/yona/blob/next/AUTHORS" target='_blank'>개발자들</a>
+            </li>
+              <li>
+              <a href="https://github.com/yona-projects/yona/blob/next/LICENSE" target='_blank'>라이센스</a>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Yona - 21세기 SW 협업 개발 환경</a></li>
+          </ul>
         </div>
       </div>
     </div>
+    <div class="container">
+      <div class="page-header">
+          <div class="row">
+              <div class="col-lg-8 col-md-7 col-sm-6">
+                <h1 id="title">Yona</h1><span class="sup_logo">&nbsp;&nbsp;</span>
+                <p class="lead">21세기 SW 협업 개발 환경</p>
+              </div>
+              <!--<div class="col-lg-4 col-md-5 col-sm-6">
+                <img src='images/lollipop2.png' class="img-responsive" style="width: 40%">
+              </div>-->
+          </div>
+
+          <div class="row">
+            <div class="col-md-12"><h2>참고 링크</h2>
+            <ul>
+                <li><a href='https://repo.yona.io/yona-projects/yona/post/3' target='_blank'>왜 요나를 써야하나? </a></li>
+                <li><a href='https://github.com/yona-projects/yona/wiki' target='_blank' title='...'>Yona 도움말 위키</a></li>
+                <li><a href='https://telegram.me/joinchat/A-3VSTyfpszxjOcW2IzR2g' target='_blank' title='...'>사용자 그룹 채널 (빠른 질문/잡담공간)</a></li>
+                <li><a href='comments.html'>댓글 페이지로 &gt;&gt;&gt;</a></li>
+            </ul>
+          </div>
+      </div>
+
+      <footer>
+      <hr>
+      <small style="margin: 2em;">Lollipop icon is made and contributed by <a href='https://www.facebook.com/dooly.bang?fref=ufi' target='_blank'>BANG LAB</a>. Image aspect ratio is tuned by <a href='https://www.facebook.com/kenu.heo?fref=ufi' target='_blank'>Kenu</a></small>
+      </footer>
+    </div>
   </div>
-  <div class="page-header">
-    <h2>참고 링크</h2>
-  </div>
-  <ul>
-    <li><a href='https://repo.yona.io/yona-projects/yona/post/3' target='_blank'>왜 요나를 써야하나? </a></li>
-    <li><a href='https://github.com/yona-projects/yona/wiki' target='_blank' title='...'>Yona 도움말 위키</a></li>
-    <li><a href='https://telegram.me/joinchat/A-3VSTyfpszxjOcW2IzR2g' target='_blank' title='...'>사용자 그룹 채널 (빠른 질문/잡담공간)</a></li>
-    <li><a href='comments.html'>댓글 페이지로 >>></a></li>
-  </ul>
-  <footer>
-  <hr>
-  <small style="margin: 2em;">Lollipop icon is made and contributed by <a href='https://www.facebook.com/dooly.bang?fref=ufi' target='_blank'>BANG LAB</a>. Image aspect ratio is tuned by <a href='https://www.facebook.com/kenu.heo?fref=ufi' target='_blank'>Kenu</a></small>
-  </footer>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+    (function(){
+  $(window).scroll(function () {
+      var top = $(document).scrollTop();
+      $('.splash').css({
+        'background-position': '0px -'+(top/3).toFixed(2)+'px'
+      });
+      if(top > 50)
+        $('#home > .navbar').removeClass('navbar-transparent');
+      else
+        $('#home > .navbar').addClass('navbar-transparent');
+  });
+})();
+    </script>
 </body>
 </html>
-
-
